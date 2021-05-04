@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(300deg, #CED1D6, #c6c8ca);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 100vh;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  text-align: center;
+  padding: 1rem;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: inherit;
+  background-color: #fff;
+  min-width: 300px;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.weather {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.weather img {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
